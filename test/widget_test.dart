@@ -8,7 +8,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+// ignore: unused_import
 import 'package:magic_ball/main.dart';
+
+import '../sample-code.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
