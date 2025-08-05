@@ -19,7 +19,7 @@ class _MagicBallState extends State<MagicBallWidget> {
 
   void shake() {
     setState(() {
-     randomNumber = Random().nextInt(6) + 1;;
+     randomNumber = Random().nextInt(6) + 1;
     });
   }
 
